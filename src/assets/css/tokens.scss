@@ -1,0 +1,33 @@
+$navbarBackgroundColor: var(--navbarBackgroundColor);
+$navbarLinkColor: var(--navbarLinkColor);
+$navbarLinkColorHover: var(--navbarLinkColorHover);
+$navbarTextTitleColor: var(--navbarTextTitleColor);
+
+$containerBackgroundColor: var(--containerBackgroundColor);
+$textColor: var(--textColor);
+$textColorPlaceholder: var(--textColorPlaceholder);
+$textColorHover: var(--textColorHover);
+
+html[data-theme='dark'] {
+	--navbarBackgroundColor: #212529;
+	--navbarLinkColor: #ffffff8c;
+	--navbarLinkColorHover: #fff;
+	--navbarTextTitleColor: #fff;
+	
+	--containerBackgroundColor: #212529;
+	--textColor: #fff;
+	--textColorPlaceholder: #ccc;
+	--textColorHover: #ccc;
+}
+
+html[data-theme='light'] {
+	--navbarBackgroundColor: #fff;
+	--navbarLinkColor: #000;
+	--navbarLinkColorHover: #ccc;
+	--navbarTextTitleColor: #000;
+	
+	--containerBackgroundColor: #fff;
+	--textColor: #000;
+	--textColorPlaceholder: #ccc;
+	--textColorHover: #ccc;
+}
